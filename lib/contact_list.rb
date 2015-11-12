@@ -2,7 +2,6 @@ require 'io/console'
 require 'active_record'
 require_relative 'contact'
 require_relative 'phone'
-require_relative 'exception'
 
 ActiveRecord::Base.establish_connection(
   adapter: 'postgresql',
