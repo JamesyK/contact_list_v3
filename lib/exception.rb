@@ -1,0 +1,3 @@
+class ContactExistsError < StandardError
+
+end
